@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+.button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 13px 48px;
+  transition: background-color 0.15s ease;
+  background-color: rgba(181, 52, 113, 0.4);
+  cursor: pointer;
+  color: #fff;
+}
+@media (max-width: 480px) {
+  .button {
+    font-size: 16px;
+    padding: 12px 38px;
+  }
+}
+.button:hover {
+  background-color: rgba(181, 52, 113, 0.7);
+}
+.button.main {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}/*# sourceMappingURL=Button.module.css.map */

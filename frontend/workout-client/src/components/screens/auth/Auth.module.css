@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+.wrapperButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperButtons > div {
+  width: 48%;
+}
+.wrapperButtons > div > button {
+  width: 100%;
+}
+.wrapperButtons > div:last-child > button {
+  background-color: #20366b;
+  opacity: 0.8;
+  transition: opacity 0.15s ease;
+}
+.wrapperButtons > div:last-child > button:hover {
+  background-color: #29478c;
+  opacity: 1;
+}/*# sourceMappingURL=Auth.module.css.map */

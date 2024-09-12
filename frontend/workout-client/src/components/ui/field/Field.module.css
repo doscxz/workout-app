@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+.input {
+  background-color: #6e2044;
+  border: 1px solid transparent;
+  color: rgb(241, 232, 232);
+  font-size: 18px;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 0.7rem;
+  outline: none;
+  width: 100%;
+}
+.input:focus {
+  border-color: rgba(181, 52, 113, 0.3);
+}
+.input::-moz-placeholder {
+  color: #946e86;
+}
+.input::placeholder {
+  color: #946e86;
+}
+
+.error {
+  color: red;
+  font-size: 1rem;
+}/*# sourceMappingURL=Field.module.css.map */

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 100deg;
+  }
+}
+.wrapper {
+  position: relative;
+}
+.wrapper button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.wrapper > button {
+  font-size: 30px;
+}
+.wrapper .menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background-color: #fff;
+  padding: 10px 12px;
+  font-size: 16px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 10px 0 10px 10px;
+  min-width: 116px;
+  display: none;
+  animation: opacity 0.4s;
+}
+.wrapper .menu.show {
+  display: block;
+}
+.wrapper .menu > ul {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .menu > ul button {
+  font-size: 16px;
+}
+.wrapper .menu > ul a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.wrapper .menu > ul a:hover, .wrapper .menu > ul a:active {
+  color: rgb(181, 52, 113);
+  margin: 4px 0;
+}/*# sourceMappingURL=Hamburger.module.css.map */
